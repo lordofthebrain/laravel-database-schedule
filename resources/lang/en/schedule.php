@@ -37,7 +37,9 @@ return [
         'custom' => 'Custom Command',
         'custom-command-here' => 'Custom Command here (e.g. `cat /proc/cpuinfo` or `artisan db:migrate`)',
         'help-cron-expression' => 'If necessary click here and use a tool to facilitate the creation of the cron expression',
-        'attention-type-function' => "ATTENTION: parameters of the type 'function' are executed before the execution of the scheduling and its return is passed as parameter. Use with care, it can break your job"
+        'attention-type-function' => "ATTENTION: parameters of the type 'function' are executed before the execution of the scheduling and its return is passed as parameter. Use with care, it can break your job",
+        'delete_cronjob' => 'Delete cronjob',
+        'delete_cronjob_confirm' => 'Do you really want to delete the cronjob ":cronjob"?'
     ],
     'status' => [
         'active' => 'Active',
@@ -52,5 +54,6 @@ return [
         'activate' => 'Activate',
         'delete' => 'Delete',
         'history' => 'History',
+        'cancel' => 'Cancel'
     ]
 ];
